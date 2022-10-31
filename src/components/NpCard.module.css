@@ -1,0 +1,22 @@
+.national_park_card {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.296);
+    width: 200px;
+    height: 250px;
+    padding: 1rem;
+    justify-content: space-evenly;
+    margin: 1rem;
+}
+
+img {
+  height: 180px;
+  width: 160px;
+}
+
+.park_name {
+    color: black;
+    text-align: center;
+}

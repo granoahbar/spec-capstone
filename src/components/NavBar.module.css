@@ -1,0 +1,30 @@
+.nav_bar {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    position: sticky;
+    align-items: center;
+    height: 4rem;
+    width: 100%; 
+}
+
+.logo {
+    color: white;
+    margin-left: 2rem;
+    width: 40%;
+}
+
+li {
+    color: white;
+    margin-right: 2rem;
+}
+
+.nav_buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-items: right;
+    justify-content: right;
+    list-style: none;
+}

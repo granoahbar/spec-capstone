@@ -1,17 +1,12 @@
-import React, {useEffect, useState} from 'react'
 import NpList from '../components/NpList'
 import { useNavigate } from "react-router-dom";
-import { getNationalParks } from '../utils/api';
+import NavBar from '../components/NavBar';
 
-
-export default function Home(props) {
-    const [nationalParks, setNationalParks] = useState([])
-
-    useEffect(() => {
-        getNationalParks().then((parks) => setNationalParks(parks))
-    }, [])      
-
+export default function Home() {
   return (
-    <NpList nationalParks={nationalParks} />
+    <div>
+    <NavBar />
+    <NpList/>
+    </div>
   )
 }
