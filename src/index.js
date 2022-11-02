@@ -4,11 +4,16 @@ import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 import Home from "./routes/Home";
 import { createBrowserRouter, RouterProvider, Route } from "react-router-dom";
+import ParkDetailsDisplay from "./routes/ParkDetailsDisplay";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Home />,
+  },
+  {
+    path: "/park",
+    element: <ParkDetailsDisplay />,
   },
 ]);
 
